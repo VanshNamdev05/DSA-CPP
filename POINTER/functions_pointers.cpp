@@ -47,6 +47,8 @@ int main()
     int arr[5] = {1,2,3,4,5};
 
     cout<<"sum is : " << getSum(arr,5) << endl;
+    //To send the array skipping first 3 values : 
+    cout<<"sum is : " << getSum(arr+3,2) << endl;
 
     return 0;
 }
